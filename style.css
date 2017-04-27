@@ -27,12 +27,47 @@ p.Logo {
 
 .column.large {
   width: 630px;
+  display: flex;
 }
 
 .column.medium {
   width: 300px;
+  display: flex;
 }
 
 .column.small {
   width: 240px;
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#one{
+  height: 200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#four{
+  height: 200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#six{
+  height: 200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
