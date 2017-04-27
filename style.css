@@ -1,16 +1,38 @@
-.Header{
+#Header{
+  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-block;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
 
 }
 
-#Logo{
+#Logo  {
   display: flex;
+  color: mediumaquamarine;
+  padding: 30px;
+  margin-left: 25px;
 }
 
-#NavBar{
-  display: flex;
+#NavBar {
+  display: inline-flex;
+  text-align: right;
+  padding: 50px;
+}
 
+p.Logo {
+  margin-left: 200px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
